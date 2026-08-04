@@ -56,11 +56,11 @@
             return false;
         }
 
-        var width = canvas.width();
-        var height = canvas.height();        
-        canvas.attr("width", width);
-        canvas.attr("height", height);
+        var width = Math.min(window.innerWidth, 1100);
+var height = Math.min(window.innerHeight, 680);
 
+canvas.attr("width", width);
+canvas.attr("height", height);
         var opts = {
             seed: {
                 x: width / 2 - 20,
