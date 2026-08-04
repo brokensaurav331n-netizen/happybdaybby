@@ -94,3 +94,42 @@ a {
         height:auto;
     }
 }
+@media screen and (max-width:768px){
+
+  #wrap{
+    width:100%;
+    height:auto;
+  }
+
+  #canvas{
+    width:100%;
+    height:auto;
+  }
+
+  #text{
+    position:relative;
+    width:90%;
+    left:0;
+    top:20px;
+    margin:0 auto;
+  }
+
+  #clock-box{
+    position:relative;
+    left:0;
+    top:20px;
+    font-size:20px;
+    text-align:center;
+  }
+
+  #clock .digit{
+    font-size:32px;
+  }
+
+  #message-box{
+    position:relative;
+    margin-top:20px;
+    text-align:center;
+    font-size:18px;
+  }
+}
